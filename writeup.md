@@ -58,7 +58,7 @@ Here is an exploratory visualization of the data set. It shows each signal class
 
 ![alt text][image1]
 
-As we can see in the following histogram the datasets are not well balance:
+Following graph represents the classes distribution on the train set. We can see than the datasets are not well balance.
 
 ![alt text][image9]
 
