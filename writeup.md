@@ -22,7 +22,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/dataset_raw.png "Visualization"
 [image2]: ./examples/dataset_prep.png "Gray scale and Normalize"
 [image3]: ./examples/dataset_aug.png "Augmented data"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image4]: ./examples/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
@@ -105,8 +105,9 @@ My final model consisted of the following layers:
 | Softmax				| etc.        									|
 |						|												|
 |						|												|
- 
 
+![alt text][image4]
+ 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
