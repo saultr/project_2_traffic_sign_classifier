@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/dataset_raw.png "Visualization"
 [image2]: ./examples/dataset_prep.png "Gray scale and Normalize"
-[image3]: ./examples/dataset_aug.png.jpg "Augmented data"
+[image3]: ./examples/dataset_aug.png "Augmented data"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
@@ -68,7 +68,7 @@ The following graph represents the classes distribution on the train set. We can
 
 As a first step, I decided to convert the images to grayscale as Pierre Sermanet and Yann LeCun mentioned in their paper, using color channels didn’t seem to improve things a lot. After some tests I got the best performance using only the Green channel fron the RGB image.
 
-As second step, I normolize the values from [0 255] to [-0.4 1.0] looking for a 0 mean and 0 variance.
+As second step, I normalize the values from [0 255] to [-0.4 1.0] looking for a 0 mean and 0 variance.
 
 Here is the exploratory visualization of the data set already preprocesed.
 
@@ -76,17 +76,18 @@ Here is the exploratory visualization of the data set already preprocesed.
 
 As a last step, I decided to generate additional data because there were classes with less than 200 samples being not enough for training. I decided to add an extra 5 images per feature.
 
-
 To add more data to the the data set, I used the following techniques:
+
  	1. Rotation randomly up to 20 degrees.
+	
 	2. Translate the image randomly in both axis.
+	
 	3. Shear the shape of the image randomly in both axis.
 
 Here is an example of an original image and an augmented image:
 
 ![alt text][image3]
 
-The difference between the original data set and the augmented data set is the following ... 
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
