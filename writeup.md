@@ -123,8 +123,7 @@ Number of epochs used were 20 because from that point the system was overfitting
 
 The dropouts hyperparameters were:
 
- 					Type           Size         keep_p      Dropout
-				
+ 				   Type           Size         keep_p      Dropout
 	Layer 1        5x5 Conv       32           0.9         10% of neurons
 	Layer 2        5x5 Conv       64           0.8         20% of neurons
 	Layer 3        5x5 Conv       128          0.7         30% of neurons
