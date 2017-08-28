@@ -124,9 +124,13 @@ Number of epochs used were 20 because from that point the system was overfitting
 The dropouts hyperparameters were:
 
  				Type           Size         keep_p      Dropout
- Layer 1        5x5 Conv       32           0.9         10% of neurons  
+				
+ Layer 1        5x5 Conv       32           0.9         10% of neurons 
+  
  Layer 2        5x5 Conv       64           0.8         20% of neurons
+ 
  Layer 3        5x5 Conv       128          0.7         30% of neurons
+ 
  Layer 4        FC             1024         0.5         50% of neurons
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
