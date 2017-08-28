@@ -96,15 +96,22 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Input         		| 32x32x1 gray image   							| 
+| Convolution 5x5     	| 1x1 stride, same padding, outputs 32x32x32 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| Max pooling	      	| 2x2 stride,  outputs 16x16x32 				|
+| Max pooling*	      	| 4x4 stride,  outputs 4x4x32 *				    |
+| Convolution 5x5	    | 1x1 stride, same padding, outputs 16x16x64    |
+| RELU					|												|
+| Max pooling	      	| 2x2 stride,  outputs 8x8x64 			    	|
+| Max pooling*	      	| 2x2 stride,  outputs 4x4x64* 				    |
+| Convolution 5x5	    | 1x1 stride, same padding, outputs 8x8x128     |
+| RELU					|												|
+| Max pooling*	      	| 2x2 stride,  outputs 4x4x128* 			    |
+| Flatten				| merge and flatten all pooling*, output 3584   | 
+| Fully connected		| output 1024     								|
+| Softmax				| output 43       								|
+*directly to fllaten
 
 ![alt text][image4]
  
