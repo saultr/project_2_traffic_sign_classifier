@@ -19,19 +19,17 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/dataset_raw.png "Visualization"
-[image2]: ./examples/dataset_prep.png "Gray scale and Normalize"
-[image3]: ./examples/dataset_aug.png "Augmented data"
-[image4]: ./examples/traffic-signs-architecture.png "Model Architecture"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
-[image9]: ./examples/histogram.png "Classes distribution"
+[image1]: ./img/dataset_raw.png "Visualization"
+[image2]: ./img/dataset_prep.png "Gray scale and Normalize"
+[image3]: ./img/dataset_aug.png "Augmented data"
+[image4]: ./img/traffic-signs-architecture.png "Model Architecture"
+[image5]: ./img/placeholder.png "Traffic Sign 2"
+[image6]: ./img/placeholder.png "Traffic Sign 3"
+[image7]: ./img/placeholder.png "Traffic Sign 4"
+[image8]: ./img/placeholder.png "Traffic Sign 5"
+[image9]: ./img/histogram.png "Classes distribution"
 
 ## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
 ---
 ### Writeup / README
 
@@ -121,13 +119,15 @@ My final model consisted of the following layers:
 To train the model, I used an Adam Optimizer with a learning ratio of 0.001. The batch size was 128 as I was a bit limited by the GPU memory. 
 Number of epochs used were 20 because from that point the system was overfitting and better results in training didn't follow with better results in testing.
 
-The dropouts hyperparameters were:
+The dropouts hyperparameters were (keep_p) for each layer:
 
 			Type           Size         keep_p      Dropout
 	Layer 1        5x5 Conv       32           0.9         10% of neurons
 	Layer 2        5x5 Conv       64           0.8         20% of neurons
 	Layer 3        5x5 Conv       128          0.7         30% of neurons
 	Layer 4        FC             1024         0.5         50% of neurons
+	
+
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
