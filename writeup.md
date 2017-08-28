@@ -100,16 +100,16 @@ My final model consisted of the following layers:
 | Convolution 5x5     	| 1x1 stride, same padding, outputs 32x32x32 	|
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x32 				|
-| Max pooling*	      	| 4x4 stride,  outputs 4x4x32 *				    |
+| Max pooling/dropout* 	| 4x4 stride,  outputs 4x4x32 *				    |
 | Convolution 5x5	    | 1x1 stride, same padding, outputs 16x16x64    |
 | RELU					|												|
 | Max pooling	      	| 2x2 stride,  outputs 8x8x64 			    	|
-| Max pooling*	      	| 2x2 stride,  outputs 4x4x64* 				    |
+| Max pooling/dropout* 	| 2x2 stride,  outputs 4x4x64* 				    |
 | Convolution 5x5	    | 1x1 stride, same padding, outputs 8x8x128     |
 | RELU					|												|
-| Max pooling*	      	| 2x2 stride,  outputs 4x4x128* 			    |
+| Max pooling/dropout  	| 2x2 stride,  outputs 4x4x128* 			    |
 | Flatten				| merge and flatten all pooling*, output 3584   | 
-| Fully connected		| output 1024     								|
+| Fully conn/dropout    | output 1024     								|
 | Softmax				| output 43       								|
 *directly to fllaten
 
@@ -118,7 +118,16 @@ My final model consisted of the following layers:
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
-To train the model, I used an ....
+To train the model, I used an Adam Optimizer with a learning ratio of 0.001. The batch size was 128 as I was a bit limited by the GPU memory. 
+Number of epochs used were 20 because from that point the system was overfitting and better results in training didn't follow with better results in testing.
+
+The dropouts hyperparameters were:
+
+ 				Type           Size         keep_p      Dropout
+ Layer 1        5x5 Conv       32           0.9         10% of neurons  
+ Layer 2        5x5 Conv       64           0.8         20% of neurons
+ Layer 3        5x5 Conv       128          0.7         30% of neurons
+ Layer 4        FC             1024         0.5         50% of neurons
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
