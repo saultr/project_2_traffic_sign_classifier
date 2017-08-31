@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image3]: ./img/dataset_aug.png "Augmented data"
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
-[image6]: ./custom/0085 PEATON.jpg.png "Traffic Sign 1"
+[image6]: ./custom/0085 PEATON.jpg "Traffic Sign 1"
 [image7]: ./custom/100_1607.jpg "Traffic Sign 2"
 [image8]: ./custom/Arterial.jpg "Traffic Sign 3"
 [image9]: ./custom/Captura.png "Traffic Sign 4"
@@ -160,7 +160,8 @@ My final model results were:
 
 Here are ten German traffic signs that I found on the web:
 
-![alt text][image6]
+![alt text][image6] ![alt text][image7] ![alt text][image8] ![alt text][image9] ![alt text][image10]
+![alt text][image11] ![alt text][image12] ![alt text][image13] ![alt text][image14] ![alt text][image15]
 
 The first image might be difficult to classify because ...
 
