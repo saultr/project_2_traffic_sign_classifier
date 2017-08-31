@@ -131,8 +131,11 @@ My final model results were:
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
 	
-	I have chosen 
+	At the begining I have chosen LeNet model but the network was underfitting not being able to pass an accuracy of 0.92. After I decided to change to the recommended model in Pierre Sermanet and Yann LeCun document. 
+
 * What were some problems with the initial architecture?
+	The arquitecture was not capturing enough details. None of the layers were passed in full connection to the softmax funtion losing interesting information from the first layers, specially the ones refered to signal shape.
+
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
 * Which parameters were tuned? How were they adjusted and why?
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
