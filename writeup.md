@@ -160,8 +160,7 @@ My final model results were:
 
 Here are ten German traffic signs that I found on the web:
 
-![alt text][image6] ![alt text][image7] ![alt text][image8] ![alt text][image9] ![alt text][image10]
-![alt text][image11] ![alt text][image12] ![alt text][image13] ![alt text][image14] ![alt text][image15]
+![alt text][image6]
 
 The first image might be difficult to classify because ...
 
