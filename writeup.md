@@ -17,6 +17,7 @@ The goals / steps of this project are the following:
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
 [image6]: ./img/custom.png "Custom Traffic Signs"
+[image7]: ./img/probability.png "Probabilities custom set classification"
 
 
 ## Rubric Points
@@ -160,7 +161,7 @@ All images are well classified.
 
 Here are the results of the prediction:
 
-Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
+Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
 
 Predicted: [28 11 12 14 40 13 26 39 10 17]
 
@@ -175,16 +176,8 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
-
-
-For the second image ... 
+![alt text][image1]
+ 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
