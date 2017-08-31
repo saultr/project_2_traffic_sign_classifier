@@ -56,7 +56,7 @@ The following graph represents the classes distribution on the train set. We can
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
-As a first step, I decided to convert the images to grayscale as Pierre Sermanet and Yann LeCun mentioned in their paper, using color channels didn’t seem to improve things a lot. After some tests I got the best performance using only the Green channel fron the RGB image.
+As a first step, I decided to convert the images to grayscale as [Pierre Sermanet and Yann LeCun](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf) mentioned in their paper and in [Alex Staravoitau project](https://navoshta.com/traffic-signs-classification/)  , using color channels didn’t seem to improve things a lot. After some tests I got the best performance using only the Green channel fron the RGB image.
 
 As second step, I normalize the values from [0 255] to [-0.4 1.0] looking for a 0 mean and 0 variance.
 
