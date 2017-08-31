@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
 [image6]: ./img/custom.png "Custom Traffic Signs"
-[image7]: ./img/probability1.png "Probabilities custom image 1 classification"
+[image7]: ./img/probability2.png "Probabilities custom image 1 classification"
 [image8]: ./img/probability2.png "Probabilities custom image 2 classification"
 [image9]: ./img/probability3.png "Probabilities custom image 3 classification"
 [image10]: ./img/probability4.png "Probabilities custom image 4 classification"
