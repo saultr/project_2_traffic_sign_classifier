@@ -16,16 +16,8 @@ The goals / steps of this project are the following:
 [image3]: ./img/dataset_aug.png "Augmented data"
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
-[image6]: ./custom/0085_PEATON.jpg "Traffic Sign 1"
-[image7]: ./custom/100_1607.jpg "Traffic Sign 2"
-[image8]: ./custom/Arterial.jpg "Traffic Sign 3"
-[image9]: ./custom/Captura.png "Traffic Sign 4"
-[image10]: ./custom/Captura2.png "Traffic Sign 5"
-[image11]: ./custom/Captura3.png "Traffic Sign 6"
-[image12]: ./custom/Captura4.png "Traffic Sign 7"
-[image13]: ./custom/Captura5.png "Traffic Sign 8"
-[image14]: ./custom/Captura6.png "Traffic Sign 9"
-[image15]: ./custom/Do-Not-Enter.jpg "Traffic Sign 10"
+[image6]: ./img/custom.png "Custom Traffic Signs"
+
 
 ## Rubric Points
 
@@ -50,7 +42,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It shows each signal class paired by [label/picture] from 0 to 42
+Here is an exploratory visualization of the data set. It shows each sign class paired by [label/picture] from 0 to 42
 
 ![alt text][image1]
 
@@ -140,7 +132,7 @@ My final model results were:
 
 * What were some problems with the initial architecture?
 	
-	The initial arquitecture was not capturing enough details. None of the layers were passed in full connection to the softmax funtion losing interesting information from the first layers, specially the ones refered to signal shape.
+	The initial arquitecture was not capturing enough details. None of the layers were passed in full connection to the softmax funtion losing interesting information from the first layers, specially the ones refered to sign shape.
 
 * What final architecture was chosen
 	
@@ -160,8 +152,7 @@ My final model results were:
 
 Here are ten German traffic signs that I found on the web:
 
-![alt text][image6] ![alt text][image7] ![alt text][image8] ![alt text][image9] ![alt text][image10]
-![alt text][image11] ![alt text][image12] ![alt text][image13] ![alt text][image14] ![alt text][image15]
+![alt text][image6]
 
 The first image might be difficult to classify because ...
 
