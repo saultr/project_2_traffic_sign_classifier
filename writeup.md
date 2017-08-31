@@ -160,11 +160,11 @@ All images are well classified.
 
 Here are the results of the prediction:
 
-Labels:&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
+Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
 
 Predicted: [28 11 12 14 40 13 26 39 10 17]
 
-Hits:        10 / 10
+Hits:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 / 10
 
 
 The model was able to correctly guess 10 of the 10 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 0.96. I tried to search on the web for a sign that fails in classification with no luck. Only signs out of the 43 classes from the trainning set failed.
