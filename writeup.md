@@ -1,12 +1,6 @@
 # **Traffic Sign Recognition** 
 
-# Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Build a Traffic Sign Recognition Project**
+# Build a Traffic Sign Recognition Project
 
 The goals / steps of this project are the following:
 * Load the data set (see below for links to the project data set)
@@ -109,7 +103,7 @@ My final model consisted of the following layers:
 | Flatten				| merge and flatten all pooling*, output 3584   | 
 | Fully conn/dropout    | output 1024     								|
 | Softmax				| output 43       								|
-*directly to fllaten
+*Fully con to flatten
 
 ![alt text][image4]
  
