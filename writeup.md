@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image3]: ./img/dataset_aug.png "Augmented data"
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
-[image6]: ./custom/0085 PEATON.jpg "Traffic Sign 1"
+[image6]: ./custom/0085_PEATON.jpg "Traffic Sign 1"
 [image7]: ./custom/100_1607.jpg "Traffic Sign 2"
 [image8]: ./custom/Arterial.jpg "Traffic Sign 3"
 [image9]: ./custom/Captura.png "Traffic Sign 4"
