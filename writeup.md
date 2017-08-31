@@ -128,23 +128,25 @@ My final model results were:
 * validation set accuracy of 0.951 
 * test set accuracy of 0.960
 
-If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
 	
 	At the begining I have chosen LeNet model but the network was underfitting not being able to pass an accuracy of 0.92. After I decided to change to the recommended model in Pierre Sermanet and Yann LeCun document. 
 
 * What were some problems with the initial architecture?
-	The arquitecture was not capturing enough details. None of the layers were passed in full connection to the softmax funtion losing interesting information from the first layers, specially the ones refered to signal shape.
+	
+	The initial arquitecture was not capturing enough details. None of the layers were passed in full connection to the softmax funtion losing interesting information from the first layers, specially the ones refered to signal shape.
 
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-* Which parameters were tuned? How were they adjusted and why?
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-
-If a well known architecture was chosen:
-* What architecture was chosen?
+* What final architecture was chosen
+	
+	The 4 layer model recommended in Pierre Sermanet and Yann LeCun document. It has 3 convolutional layers for feature extraction and one fully connected layer as a classifier.
+	
 * Why did you believe it would be relevant to the traffic sign application?
+	
+	As opposed to usual strict feed-fordward CNNs this architecture is not only forwarding the convolutional layers to hte subsequent layer, but is also brached off and fed into the classifier (fully connected layer). That allows to not only use dropouts before the classifier layer but also with previous convolutional layers making a slight improvement in performance.  
+
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
- 
+ 	
+	The system is overfitting because is achieving 0.99 in trainning and only 0.951 in the validation set. A posible solution will be using early stoping technique to prevent it, but has not being used here. The test set is performing well, similar or better to the validation set.
 
 ### Test a Model on New Images
 
