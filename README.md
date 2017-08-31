@@ -27,13 +27,11 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 
 ### Dataset and Repository
 
-1. Download the data set [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip). The classroom has a link to the data set in the "Project Instructions" content. This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
+1. Download the data set [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip). This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
 2. Clone the project, which contains the Ipython notebook and the writeup template.
 ```sh
-git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
-cd CarND-Traffic-Sign-Classifier-Project
+git clone https://github.com/saultr/project_2_traffic_sign_classifier
+cd project_2_traffic_sign_classifier
 jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
 
-### Requirements for Submission
-Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook and write the project report using the writeup template as a guide, `writeup_template.md`. Submit the project code and writeup document.
