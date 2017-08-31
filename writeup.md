@@ -15,11 +15,17 @@ The goals / steps of this project are the following:
 [image2]: ./img/dataset_prep.png "Gray scale and Normalize"
 [image3]: ./img/dataset_aug.png "Augmented data"
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
-[image5]: ./img/placeholder.png "Traffic Sign 2"
-[image6]: ./img/placeholder.png "Traffic Sign 3"
-[image7]: ./img/placeholder.png "Traffic Sign 4"
-[image8]: ./img/placeholder.png "Traffic Sign 5"
-[image9]: ./img/histogram.png "Classes distribution"
+[image5]: ./img/histogram.png "Classes distribution"
+[image6]: ./custom/placeholder.png "Traffic Sign 2"
+[image7]: ./custom/placeholder.png "Traffic Sign 3"
+[image8]: ./custom/placeholder.png "Traffic Sign 4"
+[image9]: ./custom/placeholder.png "Traffic Sign 5"
+[image10]: ./custom/placeholder.png "Traffic Sign 2"
+[image11]: ./custom/placeholder.png "Traffic Sign 3"
+[image12]: ./custom/placeholder.png "Traffic Sign 4"
+[image13]: ./custom/placeholder.png "Traffic Sign 5"
+[image14]: ./custom/placeholder.png "Traffic Sign 4"
+[image15]: ./custom/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
 
@@ -50,7 +56,7 @@ Here is an exploratory visualization of the data set. It shows each signal class
 
 The following graph represents the classes distribution on the train set. We can see than the datasets are not well balance. We see the same distribution for the test set.
 
-![alt text][image9]
+![alt text][image5]
 
 ### Design and Test a Model Architecture
 
@@ -152,10 +158,10 @@ My final model results were:
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are five German traffic signs that I found on the web:
+Here are ten German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image6] ![alt text][image7] ![alt text][image8] ![alt text][image9] ![alt text][image10]
+![alt text][image11] ![alt text][image12] ![alt text][image13] ![alt text][image14] ![alt text][image15]
 
 The first image might be difficult to classify because ...
 
