@@ -27,6 +27,8 @@ The goals / steps of this project are the following:
 [image14]: ./img/probability8.png "Probabilities custom image 8 classification"
 [image15]: ./img/probability9.png "Probabilities custom image 9 classification"
 [image16]: ./img/probability10.png "Probabilities custom image 10 classification"
+[image17]: ./img/layer1.png "Layer 1 Features map"
+[image17]: ./img/layer2.png "Layer 1 Features map"
 
 
 ## Rubric Points
@@ -183,7 +185,10 @@ The model was able to correctly guess 10 of the 10 traffic signs, which gives an
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, the model is really on the limit to make the correct decission, having similar probabilities than 'Bicycles crossing sign'.
+
+For the rest of the images the decission is clear and the system have big waranties.
+  
 
 ![alt text][image7]
 ![alt text][image8]
@@ -200,4 +205,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
+![alt text][image17]
+
+![alt text][image18]
 
