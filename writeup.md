@@ -205,7 +205,14 @@ For the rest of the images the decission is clear and the system have big warant
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
+* Layer 1: 
+	In the first convolutional layer it is clear that the shape of the sign is the charasteristic that the neural working is using to classify.
+
 ![alt text][image17]
 
+
+
+* Layer 2:
+	In the second convolutional layer we can apreciate some 'V' botton shapes and some diagonal lines aswell.
 ![alt text][image18]
 
