@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [image15]: ./img/probability9.png "Probabilities custom image 9 classification"
 [image16]: ./img/probability10.png "Probabilities custom image 10 classification"
 [image17]: ./img/layer1.png "Layer 1 Features map"
-[image17]: ./img/layer2.png "Layer 1 Features map"
+[image18]: ./img/layer2.png "Layer 1 Features map"
 
 
 ## Rubric Points
