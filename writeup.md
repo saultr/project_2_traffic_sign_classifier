@@ -160,9 +160,9 @@ All images are well classified.
 
 Here are the results of the prediction:
 
-Labels:      [28 11 12 14 40 13 26 39 10 17]
+Labels:&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
 
-Predicted:   [28 11 12 14 40 13 26 39 10 17]
+Predicted: [28 11 12 14 40 13 26 39 10 17]
 
 Hits:        10 / 10
 
