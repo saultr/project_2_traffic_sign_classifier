@@ -17,7 +17,16 @@ The goals / steps of this project are the following:
 [image4]: ./img/traffic-signs-architecture.png "Model Architecture"
 [image5]: ./img/histogram.png "Classes distribution"
 [image6]: ./img/custom.png "Custom Traffic Signs"
-[image7]: ./img/probability.png "Probabilities custom set classification"
+[image7]: ./img/probability1.png "Probabilities custom image 1 classification"
+[image8]: ./img/probability2.png "Probabilities custom image 2 classification"
+[image9]: ./img/probability3.png "Probabilities custom image 3 classification"
+[image10]: ./img/probability4.png "Probabilities custom image 4 classification"
+[image11]: ./img/probability5.png "Probabilities custom image 5 classification"
+[image12]: ./img/probability6.png "Probabilities custom image 6 classification"
+[image13]: ./img/probability7.png "Probabilities custom image 7 classification"
+[image14]: ./img/probability8.png "Probabilities custom image 8 classification"
+[image15]: ./img/probability9.png "Probabilities custom image 9 classification"
+[image16]: ./img/probability10.png "Probabilities custom image 10 classification"
 
 
 ## Rubric Points
@@ -177,6 +186,15 @@ The code for making predictions on my final model is located in the 11th cell of
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
 ![alt text][image7]
+![alt text][image8]
+![alt text][image9]
+![alt text][image10]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
+![alt text][image14]
+![alt text][image15]
+![alt text][image16]
  
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
