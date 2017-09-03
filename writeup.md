@@ -217,9 +217,6 @@ Image 7, 8, 9, 10: This set of images were really standard with no big particula
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is really on the limit to make the correct decission, having similar probabilities than 'Bicycles crossing sign'.
-
-For the rest of the images the decission is clear and the system have big waranties.
   
 Stop 
 
