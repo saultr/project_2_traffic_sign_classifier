@@ -172,9 +172,9 @@ All images are well classified.
 
 Here are the results of the prediction:
 
-Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[28 11 12 14 40 13 26 39 10 17]
+Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[14 15 8 20 9 1 39 28 10 26]
 
-Predicted: [28 11 12 14 40 13 26 39 10 17]
+Predicted: [14 15 14 26 9 1 39 29 10 26]
 
 Hits:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 / 10
 
