@@ -189,11 +189,16 @@ For the first image, the model is really on the limit to make the correct deciss
 
 For the rest of the images the decission is clear and the system have big waranties.
   
-Stop
+Stop 
+
 ![alt text][image7]
-No vehicles
+
+No vehicles 
+
 ![alt text][image8]
-Speed limit (120km/h)
+
+Speed limit (120km/h) 
+
 ![alt text][image9]
 ![alt text][image10]
 ![alt text][image11]
