@@ -166,7 +166,25 @@ Here are ten German traffic signs that I found on the web:
 
 ![alt text][image6]
 
-All images are well classified. 
+Image 1: It is a 'stop' sign with good quality but in a forest with lot of tree braches covering it. It can be difficult for the classifier for these black lines (branches) crossing over the sign.
+
+Image 2: 'no vehicles' sign. The picture has been taking at night and the white balance is towards green channel and alos a bit blurry.
+
+Image 3: It is a LED night 'speed limit (120km/h)' sign. The round circle despite being red is more narrow than normal and the numbers a bit bigger and made of LEDs. Probably impossible for the calssifier.
+
+Image 4: 'Dangerous curve to the right' sign. The sign is not perpendicular and it is a bit oblique.
+
+Image 5: 'No passing' sign. It is very dirty and the right car looks like has been painted. Could be a problem for the classifier.
+
+Image 6: 'Speed limit (30km/h)' sing. Red circle is really worn out. It can be a problem for the classifier not detecting the circle.
+
+Image 7: 'Keep left' sign. It has good quality but has a water mark on top of it. It should not be any problem for the classifier.
+
+Image 8: 'chindren crossing' sign. Very similar to bicycle crossing, snow or wild animals. 
+
+Image 9: 'no passing for vehicles over 3.5 metric tones. It is quite clear, it should not have any problem for the classifier.
+
+Image 10: 'traffic signals'. Also very clear image, just a bit rotated towards the left, but should not be a problem to be correctly classified.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -179,8 +197,22 @@ Predicted: [14 15 14 26 9 1 39 29 10 26]
 Hits:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 / 10
 
 
-The model was able to correctly guess 10 of the 10 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 0.96. I tried to search on the web for a sign that fails in classification with no luck. Only signs out of the 43 classes from the trainning set failed.
+The model was able to correctly guess 7 of the 10 traffic signs, which gives an accuracy of 70%. This is quite below the test set accuracy of 0.96, but it is normal due to the particularities or difficulties some sign had. 
 
+Image 1: The classifier has no problem to do a correct prediction despite some branches on top of the sign.
+
+Image 2: Correct prediction despite the different white balance of the image. Doesn't seem to affect much on the decission.
+
+Image 3: This sign was really difficult for the classifier. It is a nigh LED signal and borders, numbers and background is very different than the standard one. It is detecting a stop instead.
+
+Image 4: It is surprissing that the classifier is failing in this one becouse apparently it looks easy. Perspective is not right so probably the augmented data has not enought gain while doing the perspective distortion. It will be tested with more.
+
+Image 5: This sign has been surprissing correctly classified despite being really dirty and having right car masked with some paint. Perspective it is also not fully perpendicular.
+
+Image 6: Good job in this image for the model. The red circle is really worn out and despite of being a difficult one it has success. It is on the limit as we can see in the next point having more distribute probabilities than others.   
+
+Image 7, 8, 9, 10: This set of images were really standard with no big particularities, and all four were perfectly classified.
+ 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
