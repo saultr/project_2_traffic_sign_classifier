@@ -200,12 +200,33 @@ No vehicles
 Speed limit (120km/h) 
 
 ![alt text][image9]
+
+Dangerous curve to the right
+
 ![alt text][image10]
+
+No passing
+
 ![alt text][image11]
+
+Speed limit (30km/h)
+
 ![alt text][image12]
+
+Keep left
+
 ![alt text][image13]
+
+Children crossing
+
 ![alt text][image14]
+
+No passing for vehicles over 3.5 metric tons
+
 ![alt text][image15]
+
+Traffic signals
+
 ![alt text][image16]
  
 
