@@ -176,7 +176,7 @@ Labels:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[14 15 8 20 9 1 39 28 10 26]
 
 Predicted: [14 15 14 26 9 1 39 29 10 26]
 
-Hits:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 / 10
+Hits:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 / 10
 
 
 The model was able to correctly guess 10 of the 10 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 0.96. I tried to search on the web for a sign that fails in classification with no luck. Only signs out of the 43 classes from the trainning set failed.
@@ -189,9 +189,11 @@ For the first image, the model is really on the limit to make the correct deciss
 
 For the rest of the images the decission is clear and the system have big waranties.
   
-
+Stop
 ![alt text][image7]
+No vehicles
 ![alt text][image8]
+Speed limit (120km/h)
 ![alt text][image9]
 ![alt text][image10]
 ![alt text][image11]
